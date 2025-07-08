@@ -16,13 +16,13 @@ body {
 }
 .form {
     background: hsl(0, 0%, 100%);
-    min-height: 63vh;
+    min-height: 50vh;
     margin-left: 1.5em;
     padding-bottom: 2em;
 }
 
 .form h2{
-    margin-top: 1.3em;
+    margin-top: 1em;
     margin-bottom: .5em;
 }
 
@@ -49,10 +49,13 @@ body {
     justify-items: center;
     justify-content: center;
     align-items: center;
-    padding: 1em 2em;
+    padding: .7em 1px;
+    font-weight: 700;
+    gap: 12px;
     width: 86vw;
     display: flex;
-    margin-top: 17px;
+    font-size: 15pt;
+    margin-top: 22px;
 }
 
 .form .radio-buttons {
@@ -65,7 +68,7 @@ body {
 
 .form .radio-buttons .radio-border {
     border-style: solid;
-    font-size: 10pt;
+    font-size: 14pt;
     height: 4.3vh;
     display: flex;
     justify-items: center;
@@ -76,6 +79,7 @@ body {
     border: 1px solid hsl(200, 26%, 54%);
     font-family: Barlow;
     font-weight: 700;
+    height: 6vh;
 }
 
 .radio-border input[type="radip"] {
@@ -85,12 +89,12 @@ body {
 input[type="text"]{
     margin-top: 8px;
     width: 85vw;
-    height: 4.8vh;
+    height: 6vh;
 }
 
 .results {
     background: hsl(202, 55%, 16%);
-    min-height: 37vh;
+    min-height: 50vh;
     max-height: 100%;
     width: auto;
     display: flex;
@@ -98,8 +102,8 @@ input[type="text"]{
 }
 
 .results img{
-    height: 6em;
-    margin: 1.7em auto;
+    height: 13em;
+    margin: 2em auto;
     width: auto;
 }
 
@@ -109,16 +113,16 @@ input[type="text"]{
 }
 
 .results h2 {
-    margin-top: -.8em;
+    margin-top: -.4em;
     font-family: Barlow;
     font-weight: 500;
-    font-size: 16pt;
+    font-size: 19pt;
 }
 
 .results p {
     font-family: Barlow;
     font-weight: 500;
-    font-size: 11pt;
+    font-size: 13pt;
 }
 
 #clear:hover {
