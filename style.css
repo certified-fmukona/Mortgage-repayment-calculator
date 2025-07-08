@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    display: relative;
 }
 
 body {
@@ -14,8 +15,9 @@ body {
 }
 .form {
     background: hsl(0, 0%, 100%);
-    height: 63vh;
+    min-height: 63vh;
     margin-left: 1.5em;
+    padding-bottom: 2em;
 }
 
 .form h2{
@@ -82,8 +84,8 @@ input[type="text"]{
 
 .results {
     background: hsl(202, 55%, 16%);
-    height: 37vh;
-    max-height: 37vh;
+    min-height: 37vh;
+    max-height: 100%;
     width: auto;
     display: flex;
     flex-direction: column;
