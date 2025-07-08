@@ -8,6 +8,7 @@ body {
     min-width: 375px;
     border-color: hsl(200, 26%, 54%);
     border-radius: 10em;
+    background: white;
 }
 
 .form, .results {
@@ -97,14 +98,14 @@ input[type="text"]{
 }
 
 .results img{
-    height: 10em;
+    height: 6em;
     margin: 1.7em auto;
     width: auto;
 }
 
 .results h2, p {
     text-align: center;
-    margin: 0 2em;
+    margin: 0 3em;
 }
 
 .results h2 {
