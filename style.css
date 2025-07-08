@@ -68,6 +68,7 @@ body {
     justify-items: center;
     align-items: center;
     border-radius: 4px;
+    padding-left: .9em;
     gap: .8rem;
     border: 1px solid hsl(200, 26%, 54%);
 }
@@ -111,6 +112,11 @@ input[type="text"]{
 }
 
 @media (min-width: 1440px) {
-  body { font-size: 18px; }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body { font-size: 18px; }
+
 }
 
