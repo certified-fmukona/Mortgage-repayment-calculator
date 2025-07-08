@@ -83,6 +83,7 @@ input[type="text"]{
 .results {
     background: hsl(202, 55%, 16%);
     height: 37vh;
+    max-height: 37vh;
     width: auto;
     display: flex;
     flex-direction: column;
